@@ -21,7 +21,7 @@ const movieTitleComponent = `<h1>Movies</h1>`;
 
 const loadEvent = function() {
     const rootElement = document.getElementById("root");
-    console.log(rootElement)>
+    console.log(rootElement)
     rootElement.insertAdjacentHTML("beforeend", movieTitleComponent)
 
     console.log(movies.cards); //a movies-on belül található tömbre (=array), azon belül cardsra hivatkozás
